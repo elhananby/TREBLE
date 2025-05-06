@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "treble_py"
+name = "treble"
 version = "0.1.0"
 description = "Python implementation of TREBLE (Time REsolved BehavioraL Embedding)"
 readme = "README.md"

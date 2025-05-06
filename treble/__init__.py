@@ -1,6 +1,6 @@
 """TREBLE_py: Time REsolved BehavioraL Embedding in Python."""
 
-from .windows import get_windows, get_velocity_windows
+from .windows import get_windows, get_velocity_windows, get_feature_windows
 from .umap_tools import iterative_umap, bin_umap
 from .analysis import (
     run_procrustes,
@@ -19,6 +19,7 @@ from .visualization import (
 __all__ = [
     "get_windows",
     "get_velocity_windows",
+    "get_feature_windows",
     "iterative_umap",
     "bin_umap",
     "run_procrustes",
